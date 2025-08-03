@@ -28,3 +28,8 @@ while (true){
     }
     req = prompt("please enter your request"); 
 }
+
+
+    else if(req == "delete"){
+        let idx = prompt("please enter the index you want to delete");\
+        todo.splice(idx,1);}
